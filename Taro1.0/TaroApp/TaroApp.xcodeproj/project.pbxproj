@@ -16,16 +16,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18D9282B1EB0E6A50061F443 /* PBXContainerItemProxy */ = {
+		180FD22C1EB4D22C00A113EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18D928271EB0E6A50061F443 /* Taro.xcodeproj */;
+			containerPortal = 180FD2281EB4D22C00A113EF /* Taro.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 18D9281C1EB0E6A40061F443;
 			remoteInfo = Taro;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		180FD2261EB4D02900A113EF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		180FD2281EB4D22C00A113EF /* Taro.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Taro.xcodeproj; path = ../Taro/Taro.xcodeproj; sourceTree = "<group>"; };
 		18D927F81EB0E66F0061F443 /* TaroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D927FC1EB0E66F0061F443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D927FE1EB0E66F0061F443 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,7 +50,6 @@
 		18D928071EB0E66F0061F443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D9280A1EB0E66F0061F443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D9280C1EB0E66F0061F443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D928271EB0E6A50061F443 /* Taro.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Taro.xcodeproj; path = Taro/Taro.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +63,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180FD2291EB4D22C00A113EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180FD22D1EB4D22C00A113EF /* Taro.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		18D927EF1EB0E66F0061F443 = {
 			isa = PBXGroup;
 			children = (
-				18D928271EB0E6A50061F443 /* Taro.xcodeproj */,
+				180FD2281EB4D22C00A113EF /* Taro.xcodeproj */,
 				18D927FA1EB0E66F0061F443 /* TaroApp */,
 				18D927F91EB0E66F0061F443 /* Products */,
 			);
@@ -91,14 +112,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		18D928281EB0E6A50061F443 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				18D9282C1EB0E6A50061F443 /* Taro.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +122,7 @@
 				18D927F41EB0E66F0061F443 /* Sources */,
 				18D927F51EB0E66F0061F443 /* Frameworks */,
 				18D927F61EB0E66F0061F443 /* Resources */,
+				180FD2261EB4D02900A113EF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,7 +144,6 @@
 				TargetAttributes = {
 					18D927F71EB0E66F0061F443 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 42B8QL7VM6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -148,8 +161,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 18D928281EB0E6A50061F443 /* Products */;
-					ProjectRef = 18D928271EB0E6A50061F443 /* Taro.xcodeproj */;
+					ProductGroup = 180FD2291EB4D22C00A113EF /* Products */;
+					ProjectRef = 180FD2281EB4D22C00A113EF /* Taro.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -160,11 +173,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		18D9282C1EB0E6A50061F443 /* Taro.framework */ = {
+		180FD22D1EB4D22C00A113EF /* Taro.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Taro.framework;
-			remoteRef = 18D9282B1EB0E6A50061F443 /* PBXContainerItemProxy */;
+			remoteRef = 180FD22C1EB4D22C00A113EF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -307,8 +320,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42B8QL7VM6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TaroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = taro.app.TaroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -319,8 +333,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42B8QL7VM6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TaroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = taro.app.TaroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +361,7 @@
 				18D928111EB0E66F0061F443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

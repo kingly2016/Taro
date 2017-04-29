@@ -1,0 +1,6 @@
+framework module Taro {
+  umbrella header "Taro.h"
+
+  export *
+  module * { export * }
+}

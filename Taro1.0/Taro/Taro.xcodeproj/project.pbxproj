@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180FD1AD1EB4CE4A00A113EF /* AppDelegateBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1A31EB4CE4A00A113EF /* AppDelegateBase.h */; };
+		180FD1AE1EB4CE4A00A113EF /* AppDelegateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1A41EB4CE4A00A113EF /* AppDelegateBase.m */; };
+		180FD1AF1EB4CE4A00A113EF /* AppDelegateBaseX.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1A51EB4CE4A00A113EF /* AppDelegateBaseX.h */; };
+		180FD1B01EB4CE4A00A113EF /* AppDelegateBaseX.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1A61EB4CE4A00A113EF /* AppDelegateBaseX.m */; };
+		180FD1B11EB4CE4A00A113EF /* MCNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1A71EB4CE4A00A113EF /* MCNavigationController.h */; };
+		180FD1B21EB4CE4A00A113EF /* MCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1A81EB4CE4A00A113EF /* MCNavigationController.m */; };
+		180FD1B31EB4CE4A00A113EF /* MCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1A91EB4CE4A00A113EF /* MCViewController.h */; };
+		180FD1B41EB4CE4A00A113EF /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1AA1EB4CE4A00A113EF /* MCViewController.m */; };
+		180FD1B51EB4CE4A00A113EF /* VCFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1AB1EB4CE4A00A113EF /* VCFactory.h */; };
+		180FD1B61EB4CE4A00A113EF /* VCFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1AC1EB4CE4A00A113EF /* VCFactory.m */; };
+		180FD1F61EB4CE7500A113EF /* BundleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1B81EB4CE7500A113EF /* BundleConfig.h */; };
+		180FD1F71EB4CE7500A113EF /* BundleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1B91EB4CE7500A113EF /* BundleConfig.m */; };
+		180FD1F81EB4CE7500A113EF /* BundleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1BA1EB4CE7500A113EF /* BundleModel.h */; };
+		180FD1F91EB4CE7500A113EF /* BundleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1BB1EB4CE7500A113EF /* BundleModel.m */; };
+		180FD1FA1EB4CE7500A113EF /* Inflater.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1BD1EB4CE7500A113EF /* Inflater.h */; };
+		180FD1FB1EB4CE7500A113EF /* Inflater.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1BE1EB4CE7500A113EF /* Inflater.m */; };
+		180FD1FC1EB4CE7500A113EF /* ViewWrapper+CS.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1BF1EB4CE7500A113EF /* ViewWrapper+CS.h */; };
+		180FD1FD1EB4CE7500A113EF /* ViewWrapper+CS.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1C01EB4CE7500A113EF /* ViewWrapper+CS.m */; };
+		180FD1FE1EB4CE7500A113EF /* ViewWrapper+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1C11EB4CE7500A113EF /* ViewWrapper+Font.h */; };
+		180FD1FF1EB4CE7500A113EF /* ViewWrapper+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1C21EB4CE7500A113EF /* ViewWrapper+Font.m */; };
+		180FD2001EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1C31EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.h */; };
+		180FD2011EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1C41EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.m */; };
+		180FD2021EB4CE7500A113EF /* ViewWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1C51EB4CE7500A113EF /* ViewWrapper.h */; };
+		180FD2031EB4CE7500A113EF /* ViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1C61EB4CE7500A113EF /* ViewWrapper.m */; };
+		180FD2041EB4CE7500A113EF /* JSAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1C91EB4CE7500A113EF /* JSAPI.h */; };
+		180FD2051EB4CE7500A113EF /* JSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1CA1EB4CE7500A113EF /* JSAPI.m */; };
+		180FD2061EB4CE7500A113EF /* JSEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1CC1EB4CE7500A113EF /* JSEngine.h */; };
+		180FD2071EB4CE7500A113EF /* JSEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1CD1EB4CE7500A113EF /* JSEngine.m */; };
+		180FD2081EB4CE7500A113EF /* JSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1CE1EB4CE7500A113EF /* JSObject.h */; };
+		180FD2091EB4CE7500A113EF /* JSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1CF1EB4CE7500A113EF /* JSObject.m */; };
+		180FD20A1EB4CE7500A113EF /* XMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1D11EB4CE7500A113EF /* XMLElement.h */; };
+		180FD20B1EB4CE7500A113EF /* XMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1D21EB4CE7500A113EF /* XMLElement.m */; };
+		180FD20C1EB4CE7500A113EF /* XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1D31EB4CE7500A113EF /* XMLParser.h */; };
+		180FD20D1EB4CE7500A113EF /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1D41EB4CE7500A113EF /* XMLParser.m */; };
+		180FD20E1EB4CE7500A113EF /* ResManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1D91EB4CE7500A113EF /* ResManager.h */; };
+		180FD20F1EB4CE7500A113EF /* ResManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1DA1EB4CE7500A113EF /* ResManager.m */; };
+		180FD2101EB4CE7500A113EF /* Taro-PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1DB1EB4CE7500A113EF /* Taro-PrefixHeader.pch */; };
+		180FD2111EB4CE7500A113EF /* UIColor+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1DE1EB4CE7500A113EF /* UIColor+Utility.h */; };
+		180FD2121EB4CE7500A113EF /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1DF1EB4CE7500A113EF /* UIColor+Utility.m */; };
+		180FD2131EB4CE7500A113EF /* LibHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1E11EB4CE7500A113EF /* LibHelper.h */; };
+		180FD2141EB4CE7500A113EF /* LibHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1E21EB4CE7500A113EF /* LibHelper.m */; };
+		180FD2151EB4CE7500A113EF /* ConstantMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1E41EB4CE7500A113EF /* ConstantMacro.h */; };
+		180FD2161EB4CE7500A113EF /* FunctionMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1E51EB4CE7500A113EF /* FunctionMacro.h */; };
+		180FD2171EB4CE7500A113EF /* StorageMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1E71EB4CE7500A113EF /* StorageMgr.h */; };
+		180FD2181EB4CE7500A113EF /* StorageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1E81EB4CE7500A113EF /* StorageMgr.m */; };
+		180FD2191EB4CE7500A113EF /* WidgetMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1EB1EB4CE7500A113EF /* WidgetMapping.h */; };
+		180FD21A1EB4CE7500A113EF /* WidgetMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1EC1EB4CE7500A113EF /* WidgetMapping.m */; };
+		180FD21B1EB4CE7500A113EF /* SmartLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1EF1EB4CE7500A113EF /* SmartLayout.h */; };
+		180FD21C1EB4CE7500A113EF /* SmartLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1F01EB4CE7500A113EF /* SmartLayout.m */; };
+		180FD21D1EB4CE7500A113EF /* UIView+Method.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1F21EB4CE7500A113EF /* UIView+Method.h */; };
+		180FD21E1EB4CE7500A113EF /* UIView+Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1F31EB4CE7500A113EF /* UIView+Method.m */; };
+		180FD21F1EB4CE7500A113EF /* UIView+Property.h in Headers */ = {isa = PBXBuildFile; fileRef = 180FD1F41EB4CE7500A113EF /* UIView+Property.h */; };
+		180FD2201EB4CE7500A113EF /* UIView+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FD1F51EB4CE7500A113EF /* UIView+Property.m */; };
+		18D928211EB0E6A50061F443 /* Taro.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D9281F1EB0E6A50061F443 /* Taro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180FD1A31EB4CE4A00A113EF /* AppDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateBase.h; sourceTree = "<group>"; };
+		180FD1A41EB4CE4A00A113EF /* AppDelegateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateBase.m; sourceTree = "<group>"; };
+		180FD1A51EB4CE4A00A113EF /* AppDelegateBaseX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateBaseX.h; sourceTree = "<group>"; };
+		180FD1A61EB4CE4A00A113EF /* AppDelegateBaseX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateBaseX.m; sourceTree = "<group>"; };
+		180FD1A71EB4CE4A00A113EF /* MCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNavigationController.h; sourceTree = "<group>"; };
+		180FD1A81EB4CE4A00A113EF /* MCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNavigationController.m; sourceTree = "<group>"; };
+		180FD1A91EB4CE4A00A113EF /* MCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		180FD1AA1EB4CE4A00A113EF /* MCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
+		180FD1AB1EB4CE4A00A113EF /* VCFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFactory.h; sourceTree = "<group>"; };
+		180FD1AC1EB4CE4A00A113EF /* VCFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFactory.m; sourceTree = "<group>"; };
+		180FD1B81EB4CE7500A113EF /* BundleConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleConfig.h; sourceTree = "<group>"; };
+		180FD1B91EB4CE7500A113EF /* BundleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleConfig.m; sourceTree = "<group>"; };
+		180FD1BA1EB4CE7500A113EF /* BundleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleModel.h; sourceTree = "<group>"; };
+		180FD1BB1EB4CE7500A113EF /* BundleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleModel.m; sourceTree = "<group>"; };
+		180FD1BD1EB4CE7500A113EF /* Inflater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inflater.h; sourceTree = "<group>"; };
+		180FD1BE1EB4CE7500A113EF /* Inflater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inflater.m; sourceTree = "<group>"; };
+		180FD1BF1EB4CE7500A113EF /* ViewWrapper+CS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewWrapper+CS.h"; sourceTree = "<group>"; };
+		180FD1C01EB4CE7500A113EF /* ViewWrapper+CS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewWrapper+CS.m"; sourceTree = "<group>"; };
+		180FD1C11EB4CE7500A113EF /* ViewWrapper+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewWrapper+Font.h"; sourceTree = "<group>"; };
+		180FD1C21EB4CE7500A113EF /* ViewWrapper+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewWrapper+Font.m"; sourceTree = "<group>"; };
+		180FD1C31EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewWrapper+NSMutableAttributedString.h"; sourceTree = "<group>"; };
+		180FD1C41EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewWrapper+NSMutableAttributedString.m"; sourceTree = "<group>"; };
+		180FD1C51EB4CE7500A113EF /* ViewWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewWrapper.h; sourceTree = "<group>"; };
+		180FD1C61EB4CE7500A113EF /* ViewWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewWrapper.m; sourceTree = "<group>"; };
+		180FD1C91EB4CE7500A113EF /* JSAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAPI.h; sourceTree = "<group>"; };
+		180FD1CA1EB4CE7500A113EF /* JSAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAPI.m; sourceTree = "<group>"; };
+		180FD1CC1EB4CE7500A113EF /* JSEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSEngine.h; sourceTree = "<group>"; };
+		180FD1CD1EB4CE7500A113EF /* JSEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEngine.m; sourceTree = "<group>"; };
+		180FD1CE1EB4CE7500A113EF /* JSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSObject.h; sourceTree = "<group>"; };
+		180FD1CF1EB4CE7500A113EF /* JSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSObject.m; sourceTree = "<group>"; };
+		180FD1D11EB4CE7500A113EF /* XMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLElement.h; sourceTree = "<group>"; };
+		180FD1D21EB4CE7500A113EF /* XMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLElement.m; sourceTree = "<group>"; };
+		180FD1D31EB4CE7500A113EF /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		180FD1D41EB4CE7500A113EF /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		180FD1D91EB4CE7500A113EF /* ResManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResManager.h; sourceTree = "<group>"; };
+		180FD1DA1EB4CE7500A113EF /* ResManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResManager.m; sourceTree = "<group>"; };
+		180FD1DB1EB4CE7500A113EF /* Taro-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Taro-PrefixHeader.pch"; sourceTree = "<group>"; };
+		180FD1DE1EB4CE7500A113EF /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		180FD1DF1EB4CE7500A113EF /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		180FD1E11EB4CE7500A113EF /* LibHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibHelper.h; sourceTree = "<group>"; };
+		180FD1E21EB4CE7500A113EF /* LibHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibHelper.m; sourceTree = "<group>"; };
+		180FD1E41EB4CE7500A113EF /* ConstantMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantMacro.h; sourceTree = "<group>"; };
+		180FD1E51EB4CE7500A113EF /* FunctionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionMacro.h; sourceTree = "<group>"; };
+		180FD1E71EB4CE7500A113EF /* StorageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageMgr.h; sourceTree = "<group>"; };
+		180FD1E81EB4CE7500A113EF /* StorageMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageMgr.m; sourceTree = "<group>"; };
+		180FD1EB1EB4CE7500A113EF /* WidgetMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetMapping.h; sourceTree = "<group>"; };
+		180FD1EC1EB4CE7500A113EF /* WidgetMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetMapping.m; sourceTree = "<group>"; };
+		180FD1EF1EB4CE7500A113EF /* SmartLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartLayout.h; sourceTree = "<group>"; };
+		180FD1F01EB4CE7500A113EF /* SmartLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartLayout.m; sourceTree = "<group>"; };
+		180FD1F21EB4CE7500A113EF /* UIView+Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Method.h"; sourceTree = "<group>"; };
+		180FD1F31EB4CE7500A113EF /* UIView+Method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Method.m"; sourceTree = "<group>"; };
+		180FD1F41EB4CE7500A113EF /* UIView+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Property.h"; sourceTree = "<group>"; };
+		180FD1F51EB4CE7500A113EF /* UIView+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Property.m"; sourceTree = "<group>"; };
+		18D9281C1EB0E6A40061F443 /* Taro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Taro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D9281F1EB0E6A50061F443 /* Taro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taro.h; sourceTree = "<group>"; };
+		18D928201EB0E6A50061F443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D928181EB0E6A40061F443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180FD1A21EB4CE4A00A113EF /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1A31EB4CE4A00A113EF /* AppDelegateBase.h */,
+				180FD1A41EB4CE4A00A113EF /* AppDelegateBase.m */,
+				180FD1A51EB4CE4A00A113EF /* AppDelegateBaseX.h */,
+				180FD1A61EB4CE4A00A113EF /* AppDelegateBaseX.m */,
+				180FD1A71EB4CE4A00A113EF /* MCNavigationController.h */,
+				180FD1A81EB4CE4A00A113EF /* MCNavigationController.m */,
+				180FD1A91EB4CE4A00A113EF /* MCViewController.h */,
+				180FD1AA1EB4CE4A00A113EF /* MCViewController.m */,
+				180FD1AB1EB4CE4A00A113EF /* VCFactory.h */,
+				180FD1AC1EB4CE4A00A113EF /* VCFactory.m */,
+			);
+			path = AppBase;
+			sourceTree = "<group>";
+		};
+		180FD1B71EB4CE7500A113EF /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1B81EB4CE7500A113EF /* BundleConfig.h */,
+				180FD1B91EB4CE7500A113EF /* BundleConfig.m */,
+				180FD1BA1EB4CE7500A113EF /* BundleModel.h */,
+				180FD1BB1EB4CE7500A113EF /* BundleModel.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		180FD1BC1EB4CE7500A113EF /* Inflater */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1BD1EB4CE7500A113EF /* Inflater.h */,
+				180FD1BE1EB4CE7500A113EF /* Inflater.m */,
+				180FD1BF1EB4CE7500A113EF /* ViewWrapper+CS.h */,
+				180FD1C01EB4CE7500A113EF /* ViewWrapper+CS.m */,
+				180FD1C11EB4CE7500A113EF /* ViewWrapper+Font.h */,
+				180FD1C21EB4CE7500A113EF /* ViewWrapper+Font.m */,
+				180FD1C31EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.h */,
+				180FD1C41EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.m */,
+				180FD1C51EB4CE7500A113EF /* ViewWrapper.h */,
+				180FD1C61EB4CE7500A113EF /* ViewWrapper.m */,
+			);
+			path = Inflater;
+			sourceTree = "<group>";
+		};
+		180FD1C71EB4CE7500A113EF /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1C81EB4CE7500A113EF /* JSAPI */,
+				180FD1CB1EB4CE7500A113EF /* JSEngine */,
+			);
+			path = JS;
+			sourceTree = "<group>";
+		};
+		180FD1C81EB4CE7500A113EF /* JSAPI */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1C91EB4CE7500A113EF /* JSAPI.h */,
+				180FD1CA1EB4CE7500A113EF /* JSAPI.m */,
+			);
+			path = JSAPI;
+			sourceTree = "<group>";
+		};
+		180FD1CB1EB4CE7500A113EF /* JSEngine */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1CC1EB4CE7500A113EF /* JSEngine.h */,
+				180FD1CD1EB4CE7500A113EF /* JSEngine.m */,
+				180FD1CE1EB4CE7500A113EF /* JSObject.h */,
+				180FD1CF1EB4CE7500A113EF /* JSObject.m */,
+			);
+			path = JSEngine;
+			sourceTree = "<group>";
+		};
+		180FD1D01EB4CE7500A113EF /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1D11EB4CE7500A113EF /* XMLElement.h */,
+				180FD1D21EB4CE7500A113EF /* XMLElement.m */,
+				180FD1D31EB4CE7500A113EF /* XMLParser.h */,
+				180FD1D41EB4CE7500A113EF /* XMLParser.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		180FD1D51EB4CE7500A113EF /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1D61EB4CE7500A113EF /* Configs */,
+				180FD1D71EB4CE7500A113EF /* Images */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		180FD1D61EB4CE7500A113EF /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		180FD1D71EB4CE7500A113EF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		180FD1D81EB4CE7500A113EF /* ResManager */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1D91EB4CE7500A113EF /* ResManager.h */,
+				180FD1DA1EB4CE7500A113EF /* ResManager.m */,
+			);
+			path = ResManager;
+			sourceTree = "<group>";
+		};
+		180FD1DC1EB4CE7500A113EF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1DD1EB4CE7500A113EF /* Category */,
+				180FD1E01EB4CE7500A113EF /* LibHelper */,
+				180FD1E31EB4CE7500A113EF /* Macros */,
+				180FD1E61EB4CE7500A113EF /* Storage */,
+				180FD1E91EB4CE7500A113EF /* Vendor */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		180FD1DD1EB4CE7500A113EF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1DE1EB4CE7500A113EF /* UIColor+Utility.h */,
+				180FD1DF1EB4CE7500A113EF /* UIColor+Utility.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		180FD1E01EB4CE7500A113EF /* LibHelper */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1E11EB4CE7500A113EF /* LibHelper.h */,
+				180FD1E21EB4CE7500A113EF /* LibHelper.m */,
+			);
+			path = LibHelper;
+			sourceTree = "<group>";
+		};
+		180FD1E31EB4CE7500A113EF /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1E41EB4CE7500A113EF /* ConstantMacro.h */,
+				180FD1E51EB4CE7500A113EF /* FunctionMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		180FD1E61EB4CE7500A113EF /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1E71EB4CE7500A113EF /* StorageMgr.h */,
+				180FD1E81EB4CE7500A113EF /* StorageMgr.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		180FD1E91EB4CE7500A113EF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		180FD1EA1EB4CE7500A113EF /* WidgetMapping */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1EB1EB4CE7500A113EF /* WidgetMapping.h */,
+				180FD1EC1EB4CE7500A113EF /* WidgetMapping.m */,
+			);
+			path = WidgetMapping;
+			sourceTree = "<group>";
+		};
+		180FD1ED1EB4CE7500A113EF /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1EE1EB4CE7500A113EF /* SmartLayout */,
+				180FD1F11EB4CE7500A113EF /* UIView+CS */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		180FD1EE1EB4CE7500A113EF /* SmartLayout */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1EF1EB4CE7500A113EF /* SmartLayout.h */,
+				180FD1F01EB4CE7500A113EF /* SmartLayout.m */,
+			);
+			path = SmartLayout;
+			sourceTree = "<group>";
+		};
+		180FD1F11EB4CE7500A113EF /* UIView+CS */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1F21EB4CE7500A113EF /* UIView+Method.h */,
+				180FD1F31EB4CE7500A113EF /* UIView+Method.m */,
+				180FD1F41EB4CE7500A113EF /* UIView+Property.h */,
+				180FD1F51EB4CE7500A113EF /* UIView+Property.m */,
+			);
+			path = "UIView+CS";
+			sourceTree = "<group>";
+		};
+		18D928121EB0E6A40061F443 = {
+			isa = PBXGroup;
+			children = (
+				18D9281E1EB0E6A40061F443 /* Taro */,
+				18D9281D1EB0E6A40061F443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D9281D1EB0E6A40061F443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D9281C1EB0E6A40061F443 /* Taro.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D9281E1EB0E6A40061F443 /* Taro */ = {
+			isa = PBXGroup;
+			children = (
+				180FD1A21EB4CE4A00A113EF /* AppBase */,
+				180FD1BC1EB4CE7500A113EF /* Inflater */,
+				180FD1D01EB4CE7500A113EF /* Parser */,
+				180FD1EA1EB4CE7500A113EF /* WidgetMapping */,
+				180FD1C71EB4CE7500A113EF /* JS */,
+				180FD1ED1EB4CE7500A113EF /* Widgets */,
+				180FD1B71EB4CE7500A113EF /* Config */,
+				180FD1DC1EB4CE7500A113EF /* Utility */,
+				180FD1D81EB4CE7500A113EF /* ResManager */,
+				180FD1D51EB4CE7500A113EF /* Res */,
+				18D9281F1EB0E6A50061F443 /* Taro.h */,
+				180FD1DB1EB4CE7500A113EF /* Taro-PrefixHeader.pch */,
+				18D928201EB0E6A50061F443 /* Info.plist */,
+			);
+			path = Taro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18D928191EB0E6A40061F443 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FD1FA1EB4CE7500A113EF /* Inflater.h in Headers */,
+				180FD1FC1EB4CE7500A113EF /* ViewWrapper+CS.h in Headers */,
+				180FD1FE1EB4CE7500A113EF /* ViewWrapper+Font.h in Headers */,
+				180FD1B31EB4CE4A00A113EF /* MCViewController.h in Headers */,
+				180FD21F1EB4CE7500A113EF /* UIView+Property.h in Headers */,
+				180FD2111EB4CE7500A113EF /* UIColor+Utility.h in Headers */,
+				180FD2081EB4CE7500A113EF /* JSObject.h in Headers */,
+				180FD21D1EB4CE7500A113EF /* UIView+Method.h in Headers */,
+				180FD1AD1EB4CE4A00A113EF /* AppDelegateBase.h in Headers */,
+				180FD20E1EB4CE7500A113EF /* ResManager.h in Headers */,
+				180FD1F61EB4CE7500A113EF /* BundleConfig.h in Headers */,
+				180FD2171EB4CE7500A113EF /* StorageMgr.h in Headers */,
+				180FD1AF1EB4CE4A00A113EF /* AppDelegateBaseX.h in Headers */,
+				180FD2061EB4CE7500A113EF /* JSEngine.h in Headers */,
+				180FD1B11EB4CE4A00A113EF /* MCNavigationController.h in Headers */,
+				180FD2131EB4CE7500A113EF /* LibHelper.h in Headers */,
+				180FD2041EB4CE7500A113EF /* JSAPI.h in Headers */,
+				180FD2101EB4CE7500A113EF /* Taro-PrefixHeader.pch in Headers */,
+				180FD21B1EB4CE7500A113EF /* SmartLayout.h in Headers */,
+				180FD2021EB4CE7500A113EF /* ViewWrapper.h in Headers */,
+				180FD1B51EB4CE4A00A113EF /* VCFactory.h in Headers */,
+				180FD20C1EB4CE7500A113EF /* XMLParser.h in Headers */,
+				180FD1F81EB4CE7500A113EF /* BundleModel.h in Headers */,
+				180FD2001EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.h in Headers */,
+				180FD2191EB4CE7500A113EF /* WidgetMapping.h in Headers */,
+				18D928211EB0E6A50061F443 /* Taro.h in Headers */,
+				180FD2161EB4CE7500A113EF /* FunctionMacro.h in Headers */,
+				180FD2151EB4CE7500A113EF /* ConstantMacro.h in Headers */,
+				180FD20A1EB4CE7500A113EF /* XMLElement.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18D9281B1EB0E6A40061F443 /* Taro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D928241EB0E6A50061F443 /* Build configuration list for PBXNativeTarget "Taro" */;
+			buildPhases = (
+				18D928171EB0E6A40061F443 /* Sources */,
+				18D928181EB0E6A40061F443 /* Frameworks */,
+				18D928191EB0E6A40061F443 /* Headers */,
+				18D9281A1EB0E6A40061F443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taro;
+			productName = Taro;
+			productReference = 18D9281C1EB0E6A40061F443 /* Taro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D928131EB0E6A40061F443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = taro.app;
+				TargetAttributes = {
+					18D9281B1EB0E6A40061F443 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 42B8QL7VM6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18D928161EB0E6A40061F443 /* Build configuration list for PBXProject "Taro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18D928121EB0E6A40061F443;
+			productRefGroup = 18D9281D1EB0E6A40061F443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D9281B1EB0E6A40061F443 /* Taro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D9281A1EB0E6A40061F443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D928171EB0E6A40061F443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FD21A1EB4CE7500A113EF /* WidgetMapping.m in Sources */,
+				180FD1F91EB4CE7500A113EF /* BundleModel.m in Sources */,
+				180FD1FF1EB4CE7500A113EF /* ViewWrapper+Font.m in Sources */,
+				180FD20D1EB4CE7500A113EF /* XMLParser.m in Sources */,
+				180FD20B1EB4CE7500A113EF /* XMLElement.m in Sources */,
+				180FD1B41EB4CE4A00A113EF /* MCViewController.m in Sources */,
+				180FD2141EB4CE7500A113EF /* LibHelper.m in Sources */,
+				180FD21E1EB4CE7500A113EF /* UIView+Method.m in Sources */,
+				180FD1FB1EB4CE7500A113EF /* Inflater.m in Sources */,
+				180FD2121EB4CE7500A113EF /* UIColor+Utility.m in Sources */,
+				180FD20F1EB4CE7500A113EF /* ResManager.m in Sources */,
+				180FD1F71EB4CE7500A113EF /* BundleConfig.m in Sources */,
+				180FD2051EB4CE7500A113EF /* JSAPI.m in Sources */,
+				180FD2091EB4CE7500A113EF /* JSObject.m in Sources */,
+				180FD2071EB4CE7500A113EF /* JSEngine.m in Sources */,
+				180FD21C1EB4CE7500A113EF /* SmartLayout.m in Sources */,
+				180FD2181EB4CE7500A113EF /* StorageMgr.m in Sources */,
+				180FD1B21EB4CE4A00A113EF /* MCNavigationController.m in Sources */,
+				180FD2011EB4CE7500A113EF /* ViewWrapper+NSMutableAttributedString.m in Sources */,
+				180FD1FD1EB4CE7500A113EF /* ViewWrapper+CS.m in Sources */,
+				180FD2031EB4CE7500A113EF /* ViewWrapper.m in Sources */,
+				180FD1B01EB4CE4A00A113EF /* AppDelegateBaseX.m in Sources */,
+				180FD2201EB4CE7500A113EF /* UIView+Property.m in Sources */,
+				180FD1B61EB4CE4A00A113EF /* VCFactory.m in Sources */,
+				180FD1AE1EB4CE4A00A113EF /* AppDelegateBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18D928221EB0E6A50061F443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18D928231EB0E6A50061F443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18D928251EB0E6A50061F443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 42B8QL7VM6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "/Users/apple/Documents/Programms/Taro/Taro1.0/Taro/Taro/Taro-PrefixHeader.pch";
+				INFOPLIST_FILE = Taro/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taro.app.Taro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		18D928261EB0E6A50061F443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 42B8QL7VM6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "/Users/apple/Documents/Programms/Taro/Taro1.0/Taro/Taro/Taro-PrefixHeader.pch";
+				INFOPLIST_FILE = Taro/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taro.app.Taro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D928161EB0E6A40061F443 /* Build configuration list for PBXProject "Taro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D928221EB0E6A50061F443 /* Debug */,
+				18D928231EB0E6A50061F443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D928241EB0E6A50061F443 /* Build configuration list for PBXNativeTarget "Taro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D928251EB0E6A50061F443 /* Debug */,
+				18D928261EB0E6A50061F443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D928131EB0E6A40061F443 /* Project object */;
+}

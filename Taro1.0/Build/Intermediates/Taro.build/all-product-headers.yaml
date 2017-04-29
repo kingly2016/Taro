@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Documents/Programms/Taro/Taro1.0/Build/Products/Debug-iphonesimulator/Taro.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Taro-Swift.h",
+          'external-contents': "/Users/apple/Documents/Programms/Taro/Taro1.0/Build/Products/Debug-iphonesimulator/Taro.framework/Headers/Taro-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Taro.h",
+          'external-contents': "/Users/apple/Documents/Programms/Taro/Taro1.0/TaroApp/Taro/Taro/Taro.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Documents/Programms/Taro/Taro1.0/Build/Products/Debug-iphonesimulator/Taro.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Documents/Programms/Taro/Taro1.0/Build/Intermediates/Taro.build/Debug-iphonesimulator/Taro.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
